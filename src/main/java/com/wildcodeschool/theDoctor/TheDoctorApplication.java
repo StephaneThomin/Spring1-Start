@@ -41,9 +41,9 @@ public class TheDoctorApplication {
 	@RequestMapping("/")
 	@ResponseBody
 	public String index() {
-		return "<ul><li><a href='http://localhost:8080/doctor/1'>First Doctor</a></li>" +
-		"<li><a href='http://localhost:8080/doctor/3'>Third Doctor</a></li>" +
-		"<li><a href='http://localhost:8080/doctor/11'>Eleventh Doctor</a></li>" +
-		"<li><a href='http://localhost:8080/doctor/13'>Thirteenth Doctor</a></li></ul>";
+		return "<ul><li><a href='/doctor/1'>First Doctor</a></li>" +
+		"<li><a href='/doctor/3'>Third Doctor</a></li>" +
+		"<li><a href='/doctor/11'>Eleventh Doctor</a></li>" +
+		"<li><a href='/doctor/13'>Thirteenth Doctor</a></li></ul>";
 	}
 }
